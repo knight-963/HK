@@ -1,10 +1,10 @@
-import Link from "next/link";
-import styles from "../styles/Navbar.module.css"
+import React from 'react'
+import Link from 'next/link';
+import styles from "../styles/About.module.css"
 
-
-export default function Navbar() {
-    return (
-      <div>
+const About = () => {
+  return (
+    <>
         <nav className={styles.navbar}>
       <div className={styles.logo}>
         <Link href="/">Suvni Saqlash</Link>
@@ -19,7 +19,8 @@ export default function Navbar() {
         <li><Link href="/contact">Aloqa</Link></li>
       </ul>
     </nav>
-      </div>
-    );
-  }
-  
+    </>
+  )
+}
+
+export default About
