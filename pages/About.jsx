@@ -7,7 +7,7 @@ const About = () => {
     <>
         <nav className={styles.navbar}>
       <div className={styles.logo}>
-        <Link href="/">Suvni Saqlash</Link>
+        <Link href="/">Suvni Saqlash </Link>
       </div>
       <ul className={styles.navLinks}>
         <li><Link href="/">Bosh Sahifa</Link></li>
