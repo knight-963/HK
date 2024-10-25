@@ -8,6 +8,7 @@ const About = () => {
     <div className="bg-blue-400">
         <nav className={styles.navbar}>
       <div className={styles.logo}>
+        <Link href="/"><img src="logo.png" className='h-[60px]' alt="" /></Link>
         <Link href="/">Suvni Saqlash </Link>
       </div>
       <ul className={styles.navLinks}>

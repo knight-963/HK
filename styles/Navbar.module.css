@@ -24,6 +24,7 @@
   
   .navLinks a {
     text-decoration: none;
+   color: #00d9d5;
     color: #333;
     transition: color 0.3s;
   }
@@ -31,3 +32,6 @@
   .navLinks a:hover {
     color: #007bff; /* Hover rangini o'zgartirish */
   } 
+    color: #007bff;
+  }
+

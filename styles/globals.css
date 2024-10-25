@@ -2,3 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+.card {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    background: #ffffff;
+    box-shadow: 25px 25px 40px rgb(142, 142, 142),
+                -15px -15px 30px rgb(241, 241, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   
+   
