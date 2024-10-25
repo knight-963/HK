@@ -1,12 +1,13 @@
-import Link from "next/link";
-import styles from "../styles/Navbar.module.css"
+import React from 'react'
+import Link from 'next/link';
+import styles from "../styles/About.module.css"
 
-export default function Navbar() {
-    return (
-      <div>
-    <nav className={styles.navbar}>
+const About = () => {
+  return (
+    <>
+        <nav className={styles.navbar}>
       <div className={styles.logo}>
-        <Link href="/"><img src="logo.png" className="h-[60px]" alt="" /></Link>
+        <Link href="/"><img src="logo.png" className='h-[60px]' alt="" /></Link>
       </div>
       <ul className={styles.navLinks}>
         <li><Link href="/">Bosh Sahifa</Link></li>
@@ -18,13 +19,8 @@ export default function Navbar() {
         <li><Link href="/contact">Aloqa</Link></li>
       </ul>
     </nav>
+    </>
+  )
+}
 
-    <div>
-    <img src="p1.jpg" className="w-[100%] h-[600px]" alt="" />
-    <h1 className="text-5xl text-center text-sky-200 mt-[-330px]">Suvni Tejang</h1>
-    </div>    
-
-      </div>
-    );
-  }
-  
+export default About
