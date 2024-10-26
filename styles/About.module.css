@@ -28,8 +28,12 @@
     text-decoration: none;
 
 
+
     color: #00d9d5;
     color: aliceblue;
+
+    color: #00e1ff;
+
 
     transition: color 0.3s;
   }
