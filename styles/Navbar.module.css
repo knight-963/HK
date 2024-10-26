@@ -30,5 +30,8 @@
   }
   
   .navLinks a:hover {
+    color: #007bff; /* Hover rangini o'zgartirish */
+  } 
     color: #007bff;
   }
+
