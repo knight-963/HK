@@ -8,7 +8,10 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      {/* <About/> */}
+      <Footer />
+      <Comp />
+
+
       <div className="flex justify-center gap-[60px] pt-[400px]">
 
         <div class="card"><img src="home-1-svgrepo-com.svg" className="h-[120px]" alt="" /></div>
@@ -70,6 +73,7 @@ export default function Home() {
           </div>
 
         </div>
+
       <Footer />  
 
     </div>
