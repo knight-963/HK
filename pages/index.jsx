@@ -3,6 +3,7 @@ import Footer from '../components/Footer'
 import About from '@/pages/About';
 import Comp from '../components/Comp'
 
+
 export default function Home() {
   return (
     <div>
@@ -10,6 +11,7 @@ export default function Home() {
       {/* <About/> */}
       <Comp />
       <Footer />  
+
     </div>
   );
 }
