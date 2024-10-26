@@ -8,10 +8,7 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-
       <Footer />
-
-      {/* <About/> */}
       <Comp />
       <Footer />  
 
