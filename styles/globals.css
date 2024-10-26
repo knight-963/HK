@@ -7,8 +7,8 @@
     height: 200px;
     border-radius: 50px;
     background: #ffffff;
-    box-shadow: 25px 25px 40px rgb(142, 142, 142),
-                -15px -15px 30px rgb(241, 241, 241);
+    box-shadow: 15px 15px 30px rgb(0, 229, 255),
+                -5px -5px 20px rgb(0, 229, 255);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,4 +24,16 @@
    .im{
     border-radius: 20px 20px 0px 0px;
    }
-   
+   .le{
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+   }
+   .ke{
+    width: 1400px;
+    height: 600px;
+    background-color: aqua;
+    border-radius: 20px;
+    padding: 30px;
+    color: rgb(0, 136, 255);
+   }
